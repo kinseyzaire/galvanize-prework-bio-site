@@ -1,0 +1,24 @@
+<!doctype html>
+<html  lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>&#215; SLAP! &#215;</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link href="style.css" rel="stylesheet" />
+    <script src="jquery-1.11.3.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('button').on('click', function() {
+    var slap = $('<div class="slap">slap?</div>');
+    $('button').after(slap);
+    $('button').remove();
+  });
+});
+</script>
+</head>
+<body>
+<button><img src="waving-hand-sign.png"></button>    
+<!-- <body class="slap"> -->
+
+</body>
